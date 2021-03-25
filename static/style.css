@@ -1,26 +1,28 @@
 body{
-	font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'Lato', sans-serif;
 	background-image: url("../images/Background.jpg");
 }
 
 h1{
+  font-family: 'Satisfy', cursive;
 	text-shadow: 2px 2px #6a6a6a;
 }
 
 h2{
+  font-family: 'Satisfy', cursive;
 	padding-top: 12px;
 	padding-bottom: 12px;
-	/*background-color: #63a6bf;*/
-	font-weight: normal;
+	font-weight: bold;
+  font-size: 2em;
 	background-image: url("../images/bw_seal_of_sf.svg.png");
 	background-repeat: no-repeat;
 	background-position: center left;
 	padding-left: 40px;
-	/*border-radius: 10px;*/
 }
 
 .header{
-	background-color: rgba(73, 64, 25, 0.616);
+	background-color: rgba(95, 85, 42, 0.616);
+  color: black;
 	border-radius: 10px;
 }
 /* navajowhite */
@@ -28,7 +30,9 @@ h2{
 	background-color:rgba(245, 245, 220, 0.5);
 	padding: 15px;
 	border-radius: 10px;
-	
+	letter-spacing: .02em;
+  line-height: 1.5em;
+  font-size: 1.1em;
 }
 
 .home {
@@ -36,6 +40,7 @@ h2{
 	background-repeat: no-repeat;
 	background-position: center left;
 	padding-left: 60px;
+  font-size: 3.5em;
 	text-decoration: none;
 }
 
@@ -88,6 +93,7 @@ nav, .home, .population, .hood, .economy, .source{
 .menu ul{
 	list-style-type: none;
 	display: inline-block;
+  padding-inline-start: 0px;
 }
 .menu li{
 	/*border: 1px solid #207278 ;*/
@@ -96,12 +102,13 @@ nav, .home, .population, .hood, .economy, .source{
 }
 .menu ul li a{
 	display: block;
+  font-size: 1.2em;
 	padding:10px;
-	color: #63a6bf;
+	color: black;
 }
 
 .menu ul li a:hover{
-	color: #4E53A5;
+	color: white;
 	background-color: #3BBA9C;
 }
 
