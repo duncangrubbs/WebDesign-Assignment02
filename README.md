@@ -3,14 +3,25 @@
 
 This website is based on Brian Jesse Kimani's [assignment 2](https://jbkimani.digitalscholar.rochester.edu/assignment02/).
 
+The previous font was 'Verdana', but there were fallback fonts specified (Geneva and Tahoma).
+
 ## Font Choices
 I chose 'Satisfy' to use as the primary typeface and 'Lato' as the secondary. I landed on this pairing because I felt like the
-style of the website felt more old-fashioned given the color scheme and the background. Because of this, I wanted to
+style of the website was more old-fashioned given the color scheme and the background. Because of this, I wanted to
 choose a primary font that was serifed and had a look of old-fashioned cursive writing. After browsing Google
 fonts I found the font 'Satisfy' which matched what I was looking for. Then I used Google Font's pairing engine to
 find a secondary font. They offer several options, but I felt like 'Lato' had the least rounding, and thus
-fit the primary font best. All of the fonts they recommended were sans-serif which wasn't ideal, but I felt that
-'Lato' matched the theme of the page the best.
+matched with the primary font best. All of the fonts they recommended were sans-serif which wasn't ideal, but I felt that
+'Lato' still matched the theme of the page well.
+
+## Planned Improvements
+I think that the biggest areas of improvement for this website's readability and legibility are
+1. Paragraph Text is too densely spaced, and thus not easily scannable
+2. Header text is not larger enough and does not provide enough contrast to stand out
+3. Navigation text is small and does not grab the user's attention
+
+To solve these problems, I plan to make header's larger and ensuring proper contrast between the text and the background.
+Spacing out paragraph text appropriately, both with letter spacing and line-height, and enlarging navigation font size.
 
 ## CSS Changes
 The first change I made was to the contrast of heading fonts. There seemed to be a lack of contrast between the font color and
